@@ -1,0 +1,284 @@
+:root {
+  --iris: #4d5ae5;
+  --OCEAN: #404bbf;
+  --Navyblue: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHTSLATE: #8e8f99;
+  --cornflower: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVYBLUEmodal: #2e2f42;
+  --GREY: #2e2f42;
+  --WHITE: #ffffff;
+  --Dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE);
+  background-color: var(--WHITE);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.nav {
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.accent {
+  color: var(--Navyblue);
+}
+
+.nav-list {
+}
+
+.nv-link {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--Navyblue);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.nv-link:hover,
+.nv-link:focus,
+.list-item-cont:hover,
+.list-item-cont:focus {
+  color: var(--OCEAN);
+}
+
+.pf-list-bf-btn:hover,
+.pf-list-bf-btn:focus {
+  background-color: var(--OCEAN);
+  color: var(--WHITE);
+}
+
+.hero-butn:hover,
+.hero-butn:focus {
+  background-color: var(--OCEAN);
+  color: var(--white);
+}
+
+.nav-list-item {
+}
+
+.addr {
+  font-style: normal;
+}
+
+.addr-list {
+}
+
+.addr-list-item {
+}
+
+.list-item-cont {
+  color: var(--SLATE);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.hero {
+  background-color: var(--NAVYBLUEmodal);
+}
+
+.hero-title {
+  color: var(--WHITE);
+  text-align: center;
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-butn {
+  background-color: var(--iris);
+  color: var(--WHITE);
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+}
+
+.pf-list-bf-btn {
+  color: var(--iris);
+  text-align: center;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  background-color: var(--CLOUD);
+}
+
+.feature {
+}
+
+.feature-title {
+}
+
+.feature-list {
+}
+
+.feature-item {
+}
+
+.feature-subtitle {
+  color: var(--NAVYBLUEmodal);
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.feature-text {
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.do {
+}
+
+.do-title {
+  color: var(--NAVYBLUEmodal);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.do-list {
+}
+
+.do-item {
+}
+
+.do-img {
+}
+
+.team {
+  background-color: var(--CLOUD);
+}
+
+.team-title {
+  color: var(--NAVYBLUEmodal);
+  text-align: center;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list {
+}
+
+.team-item {
+  background-color: var(--WHITE);
+}
+
+.team-img {
+}
+
+.team-subtitle {
+  color: var(--NAVYBLUEmodal);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.foot {
+  background-color: var(--Navyblue);
+}
+
+.foot-link {
+}
+
+.foot-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--CLOUD);
+}
+
+.accent-pf {
+  color: var(--CLOUD);
+}
+
+.pf {
+}
+
+.pf-title {
+}
+
+.pf-list-bf {
+}
+
+.pf-list-bf-item {
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--WHITE);
+}
+
+.btn .pf-list-pc {
+}
+
+.pf-list-pc-item {
+}
+
+.pf-list-pc-img {
+}
+
+.pf-list-pc-subtitle {
+  color: var(--Navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.pf-list-pc-text {
+  color: var(--SLATE);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.foot-accent {
+  color: var(--CLOUD);
+}
