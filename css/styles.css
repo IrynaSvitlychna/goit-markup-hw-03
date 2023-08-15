@@ -80,8 +80,8 @@ section {
   margin-left: auto;
   margin-right: auto;
 
-  outline: 2px solid red;
-  outline-offset: -2px;
+  /* outline: 2px solid red; */
+  /* outline-offset: -2px; */
 }
 
 .header-container {
@@ -377,7 +377,9 @@ section {
 }
 
 .pf-list-pc-item {
-  border: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .pf-list-pc-img {
