@@ -260,7 +260,7 @@ section {
 
 .feature-list {
   display: flex;
-  gap: 8px;
+  gap: 24px;
 }
 
 .feature-item {
@@ -283,7 +283,7 @@ section {
   letter-spacing: 0.02em;
 }
 
-.do {
+.do-section {
 }
 
 .do-title {
@@ -412,6 +412,7 @@ section {
 .card-pf-list {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
+  border-top: none;
 }
 
 .pf-list-pc-text {
