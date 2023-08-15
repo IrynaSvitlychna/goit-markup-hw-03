@@ -84,11 +84,14 @@ section {
   /* outline-offset: -2px; */
 }
 
+.header-section {
+  border-bottom: 1px solid var(--cornflower);
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--cornflower);
 }
 
 .section-title {
@@ -104,7 +107,6 @@ section {
 
 .nav {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 
@@ -116,6 +118,10 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+}
+
+.nav-logo {
+  margin-right: 76px;
 }
 
 .accent {
@@ -144,6 +150,7 @@ section {
 .pf-list-bf-btn:focus {
   background-color: var(--OCEAN);
   color: var(--WHITE);
+  border: 1px solid transparent;
 }
 
 .hero-butn:hover,
@@ -180,12 +187,14 @@ section {
 
 .hero {
   background-color: var(--NAVYBLUEmodal);
+  padding: 188px 0;
 }
 
 .hero-container {
 }
+
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
   color: var(--WHITE);
   text-align: center;
@@ -209,6 +218,10 @@ section {
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .pf-list-bf-btn {
@@ -327,16 +340,16 @@ section {
 }
 
 .set-team {
-  margin: 32px 0;
-  padding: 0 16px;
+  padding: 32px 0;
 }
 .foot {
   background-color: var(--Navyblue);
+  padding: 100px 0;
 }
 
 .foot-link {
   display: inline-block;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 
 .foot-text {
@@ -351,7 +364,9 @@ section {
   color: var(--CLOUD);
 }
 
-.pf {
+.pf-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .pf-title {
@@ -395,8 +410,8 @@ section {
 }
 
 .card-pf-list {
-  margin: 32px 0;
-  padding: 0 8px;
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
 }
 
 .pf-list-pc-text {
