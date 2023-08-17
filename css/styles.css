@@ -57,8 +57,8 @@ img {
 }
 
 section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 
 /* Card set */
@@ -243,6 +243,8 @@ section {
 }
 
 .feature {
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .visually-hidden {
@@ -284,6 +286,8 @@ section {
 }
 
 .do-section {
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 
 .do-title {
@@ -303,6 +307,8 @@ section {
 
 .team {
   background-color: var(--CLOUD);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -392,9 +398,6 @@ section {
 }
 
 .pf-list-pc-item {
-  border-right: 1px solid var(--cornflower);
-  border-left: 1px solid var(--cornflower);
-  border-bottom: 1px solid var(--cornflower);
 }
 
 .pf-list-pc-img {
@@ -422,9 +425,8 @@ section {
 }
 
 .foot-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
+
 .foot-accent {
   color: var(--CLOUD);
 }
